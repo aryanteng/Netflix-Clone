@@ -1,0 +1,214 @@
+@font-face {
+    font-family: netflix-font;
+    src: url("fonts/BebasNeue/Commercial/TTF/BebasNeue-Bold.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    background-color:rgb(26, 26, 26);
+    font-family: 'Roboto', sans-serif;
+}
+.info-box-2{
+    margin-top: -30px;
+}
+.info-box-2 h3, .info-box-3 h3{
+    font-weight: 500;
+}
+body h4{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+}
+body img, h2{
+    padding: 20px;
+}
+body h3{
+    font-size: 20px;
+}
+.footer{
+    margin-top: 10px;
+}
+.info-box-4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.text-box-2{
+    display: flex;
+}
+.box-6-input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.box-1{
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(0,0,0,1)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/c16cf196-e89e-4c46-8cc7-f2eca6fb0762/8a1bf43e-747e-44e3-a3b6-77a055300254/IN-en-20220103-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.info-box .info-4{
+    padding-bottom: 20px;
+}
+.box-2,.box-3,.box-4,.box-5,.box-6,.footer{
+    background-color:black;
+}
+.heading{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #E50A15;
+    font-family: netflix-font;
+}
+.question{
+    display: flex;
+    align-items: center;
+    color:gray;
+    padding-left: 2rem;
+}
+.question a{
+    padding-left: 8px;
+    font-size: 20px;
+}
+.footer a{
+    color: gray;
+    text-decoration: none;
+    font: 10px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.input-mail{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.get-started{
+    background-color: #E50A15;
+    color: white;
+    padding: 10px;
+    min-width: 100px;
+    border: none;
+    border-radius: 3px;
+}
+.lang-button{
+    color: white;
+    background:transparent;
+    margin-left: 2rem;
+    padding: 10px;
+    min-width: 100px;
+    border: 1px solid white;
+    border-radius: 1px;
+    margin-right: 5px;
+}
+.footer .lang-button{
+    margin-left: 3.2rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+}
+.button-box{
+    justify-content: space-between;
+    margin-left: auto;
+    padding-right: 20px;
+}
+.box-1{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.box-2,.box-3,.box-4,.box-5,.box-6{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.question-box{
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+}
+.q-box{
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-1, .info-2, .info-3, .info-4{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    width: 25%;
+}
+.info-1 a, .info-2 a, .info-3 a, .info-4 a{
+    margin-bottom: 10px;
+}
+.panel{
+    padding: 0;
+    margin-top: 2px;
+    background-color: #303030;
+    max-width: 80%;
+    width: 80%;
+    color: white;
+    display: none;
+    overflow: hidden;
+}
+.panel p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.under-sign{
+    margin-left: 2rem;
+}
+  
+

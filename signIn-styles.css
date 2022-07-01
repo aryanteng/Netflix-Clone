@@ -1,0 +1,217 @@
+@font-face {
+    font-family: netflix-font;
+    src: url("fonts/BebasNeue/Commercial/TTF/BebasNeue-Bold.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image:linear-gradient(to bottom, rgba(0,0,0, 0.3), rgba(0,0,0,1)),url("https://assets.nflxext.com/ffe/siteui/vlv3/c16cf196-e89e-4c46-8cc7-f2eca6fb0762/8a1bf43e-747e-44e3-a3b6-77a055300254/IN-en-20220103-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    margin: 0;
+}
+.footer a:hover{
+    text-decoration: underline
+}
+.navbar h1{
+    padding-left: 2rem;
+    margin-top: 1.2rem;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #E50A15;
+    font-family: netflix-font;
+}
+.fa{
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    width: 0.6rem;
+}
+.main-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0,0,0,0.7);
+    width: 27rem;
+    color: white;
+    align-items: left;
+}
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem;
+    width: 100%;
+    padding-top: 2rem;
+    align-items: left;
+    color: white;
+}
+.main-info h5, a{
+    color: gray;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.main-info a:hover{
+    text-decoration: underline;
+}
+.learn-more-box{
+    display: flex;
+    align-items: left;
+}
+
+.learn-more-box a:hover{
+    text-decoration: underline blue;
+}
+.fb-icon{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    margin-top: 3rem;
+    background-color: rgb(0,0,0,0.5);
+    padding-left: 0.8rem;
+}
+.footer-first{
+    display: flex;
+    align-items: center;
+}
+.footer-second{
+    display: flex;
+    align-items: initial;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.link-box{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5rem;
+}
+.link-box a{
+    margin-top: 1rem;
+}
+.lang-button{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 6rem;
+    color: gray;
+    border: 0.1px solid white;
+    background: transparent;
+    margin-bottom: 2rem;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.input{
+    padding: 1rem;
+    background-color: rgb(50, 49, 49);
+    color: white;
+    border: none;
+    display: block;
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    outline: none;
+}
+.sign-in{
+    background-color: #E50A15;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    width: 67%;
+    padding: 0.5rem;
+}
+.new-netflix{
+    display: flex;
+    align-items: center;
+}
+.checkbox-need-help{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.checkbox-need-help h5{
+    font-size: 0.8rem;
+}
+#checkbox-1{
+    margin-left:0;
+    border: none;
+}
+.need-help{
+    color: rgb(205, 201, 201);
+    padding-left: 7.7rem;
+}
+@media(max-width: 700px){
+    body{
+        background-image: none;
+        background-color: black;
+    }
+    .navbar h1{
+        padding-left: 1rem;
+    }
+    .main-box{
+        margin-left: 1.5rem;
+        align-items: left;
+    }
+    .main-info{
+        padding-left: 1rem;
+        align-items: left;
+        margin-top: -5rem;
+    }
+    .input{
+        display: block;
+        width: 130%;
+    }
+    .sign-in{
+        width: 137%;
+    }
+    .need-help{
+        padding-left: 0;
+        margin-left: 1rem;
+    }
+    .main-info h5, a{
+        font-size: 0.8rem;
+    }
+    .fb-icon{
+        margin-top: 1rem;
+        margin-bottom: -2rem;
+    }
+    .new-netflix{
+        margin-top: 1rem;
+        margin-bottom: -2rem;
+    }
+    .footer{
+        margin-top: -3rem;
+        margin-bottom: -5rem;
+        border-top: 0.5px solid gray;
+    }
+    .footer a{
+        font-size: 0.7rem;
+    }
+    .learn-more{
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .learn-more h5{
+        font-size: 0.71rem;
+    }
+    .link-box{
+        padding-right: 4rem;
+    }
+
+}

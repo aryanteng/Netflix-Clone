@@ -1,0 +1,129 @@
+@font-face {
+    font-family: netflix-font;
+    src: url("fonts/BebasNeue/Commercial/TTF/BebasNeue-Bold.ttf");
+}
+@font-face {
+    font-family: netflix-body;
+    src: url("fonts/BebasNeue/Commercial/TTF/BebasNeue-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #111111;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+.container{
+    padding-left: 20px;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(14, 13, 13);
+    font-family: 'Roboto', sans-serif;
+}
+.nav-container{
+    padding: 10px 20px 10px 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+.netflix{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #E50A15;
+    font-family: netflix-font;
+}
+.nav-links a, ul{
+    text-decoration: none;
+    display: flex;
+    color: aliceblue;
+    list-style: none;
+    padding-right: 15px;
+    font-size: 0.7rem;
+    margin-top: 0;
+}
+.top-container .title{
+    margin-top: 200px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.main-box h2{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+.navbar .icons ul{
+    padding-right: 10px;
+    align-items: center;
+}
+.nav-links{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.icons{
+    padding:20px;
+    margin-left: auto;
+}
+.icons li{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.socials{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: start;
+}
+.socials ul{
+    padding-left: 20px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 40px;
+}
+.info-box{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.info-box a{
+    color: gray;
+    text-decoration: none;
+    text-align: left;
+    font-size: 12px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.info-box a:hover{
+    text-decoration: underline;
+}
+.info-1,.info-2,.info-3,.info-4{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+.copyright{
+    color: gray;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 20px;
+}
+.posters-1,.posters-2, .posters-3{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+.posters-1 div, .posters-2 div, .posters-3 div{
+    margin-right: 8px;
+}
